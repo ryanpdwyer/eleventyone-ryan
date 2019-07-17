@@ -1,13 +1,10 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.
+title: Dr. Ryan Dwyer
+subtitle: Research and teaching
 layout: layouts/base.njk
 ---
 
-## This site is a starting point
+I teach general and physical chemistry at Mount Union and do research in physical chemistry.
 
-From this point we should already have many dependencies.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5FsAWr5AwFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
