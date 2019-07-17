@@ -1,9 +1,8 @@
 ---
 title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+subtitle: A project scaffold for getting building with Eleventy quickly.
 layout: layouts/base.njk
 ---
-
 
 ## This site is a starting point
 
@@ -18,7 +17,6 @@ From this point we should already have:
 - Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
 
 
-
 ## Post pages
 
 The pages found in in the posts
@@ -31,19 +29,6 @@ The pages found in in the posts
   </li>
 {%- endfor -%}
 </ul>
-
-## Links from an external data source
-
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
 
 ## Prerequisite
 
