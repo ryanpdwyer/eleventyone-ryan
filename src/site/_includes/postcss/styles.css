@@ -42,10 +42,10 @@ body {
   width: 90%;
   text-align: left;
   @media (min-width: $mid) {
-    width: 600px;
+    width: 640px;
   };
   @media (min-width: $wide) {
-    width: 700px;
+    width: 800px;
   };
 }
 
@@ -64,10 +64,10 @@ h1 {
   line-height: 1;
 
   @media (min-width: $mid) {
-    font-size: 5em;
+    font-size: 4em;
   };
   @media (min-width: $wide) {
-    font-size: 6em;
+    font-size: 4.5em;
   };
 }
 
@@ -178,6 +178,20 @@ pre {
   }
 }
 
+.youtube-video {
+  width: 560px;
+  height: 315px;
+  
+  @media (min-width: $mid) {
+    width: 616px;
+    height: 347px;
+  };
+
+  @media (min-width: $wide) {
+    width: 736px;
+    height: 414px;
+  };
+}
 
 footer {
   margin-top: 6em;
